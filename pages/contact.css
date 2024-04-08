@@ -1,0 +1,333 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    width: 95px;
+    background-color: rgb(177,173,173);
+    border-radius: 6px;
+}
+
+
+p {color: #fff;}
+
+
+body {
+    background-color: black; }
+
+
+/* CSS ACCUEIL */
+header {
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+    /* Fixer l'Header */
+    position: fixed;
+    z-index: 1000;
+    }
+
+
+header  .logo a {
+    font-size: 25px;
+    color: #29d9d5;
+}
+
+header  .logo a span {
+    color: #fff;
+}
+
+nav ul {
+    /* enlever les pointillés */
+    list-style-type: none; 
+    display: inline-block;
+    }
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li  {
+    /* espace entre les mots */
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+nav a {
+    /* distance de a:hover */
+    padding-bottom: 3px; 
+    /* enlever le souligne */
+    /* font-style: italic; */
+    /* Disparaitre le soulignement */
+    text-decoration: none; 
+    /* Transformer le texte en blanc */
+    color: white;
+    /* Gras ou simple */
+    font-weight: 400;
+    /* Taille de la police */
+    font-size: 14px;
+    /* Espace des mots */
+    letter-spacing: 1px;
+    /* Texte en Majuscule */
+    /* text-transform: uppercase;  */
+    }
+
+
+nav a:hover {
+    color: aqua; 
+    border-bottom: 2px solid aqua; 
+    }
+
+
+    
+/* FIN PAGE HEADER */
+
+
+
+#contact_accueil {
+    background: linear-gradient(rgba(0,0,0,0.2),#333), url('../images/sandales.PNG') center;
+    border-radius: 50px;
+    height: 400px;
+    margin-top: 5px;
+    /* Transparence de l'image */
+    /* opacity: 0.6; */
+    
+}
+
+#contact_accueil h2 {
+    text-align: center;
+    padding: 180px 0 40px 0;
+    font-size: 60px;
+    color: rgb(6, 115, 122);
+    text-shadow: 3px 5px black;
+}
+
+#contact_accueil {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+#contact_accueil {
+    background: linear-gradient(rgba(0,0,0,0.1),#333), url('../images/A.PNG') center;
+    border-radius: 50px;
+    height: 400px;
+    margin-top: 5px;
+    /* Transparence de l'image */
+    /* opacity: 0.6; */
+}
+
+
+/* accueil contact */
+#contact_accueil h2 {
+    text-align: center;
+    padding: 180px 0 40px 0;
+    font-size: 60px;
+    /* couleur bleu */
+    /* color: rgb(6, 115, 122); */
+    color: aqua;
+    text-shadow: 3px 5px black;
+}
+
+#contact_accueil h3 {
+    text-align: center;
+    color: blanchedalmond;
+    }
+
+#contact_accueil {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Contact CSS */
+
+#contact {
+    padding: 0 10%;
+    margin-bottom: 300px;
+    height: 90vh;
+    padding-top: 100px;
+    font-size: 40px;
+}
+#contact form {
+    background-color: #fff;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.left-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.left-right .left , .left-right .right  {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+#contact form label {
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 200;
+}
+#contact form input {
+    padding: 8px;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    outline: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px; }
+
+#contact form input:focus , textarea:focus {
+    border: 2px solid #29d9d5; }
+
+#contact button {
+    width: fit-content;
+    padding: 8px 40px;
+    background-color: #139e9c;
+    border: 1px solid #111;
+    color: #fff;
+    cursor: pointer;
+    font-size: bold;
+    transition: 0.5s;
+    border-radius: 10px;
+} 
+
+#contact button:hover {
+    letter-spacing: 1.5px;
+    background-color: #0bd1ce;
+    color: #000000;
+}
+
+
+/* pied de page */
+
+
+footer {
+    background-color: rgba(17, 199, 206, 0.5);
+    height: 210px;
+    text-align: center;
+    padding-top: 30px; 
+    margin-bottom: 0px;
+    }
+
+footer .logo a {
+    font-size: 35px;
+    color: #29d9d5; 
+    padding-top: 80px;}
+
+footer .logo a span {
+    color: #fff; }
+
+.div1 p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px; }
+
+.centrer {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px; }
+
+
+.div1 h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff; }
+
+
+
+footer .div2 {
+        text-align: center;
+        margin-top: 10px;
+        border-top: .1rem solid #fff;
+        font-size: 15px;
+        border-bottom: none;
+    }
+    
+.div2 p {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/* Responsive ACCEUIL */
+
+@media screen and (max-width: 700px) {
+    header  .logo a {
+        font-size: 20px;
+        color: #29d9d5; }
+
+    .menu li a {
+        font-size: 15px; 
+        text-shadow: 3px 5px black; }
+
+    #contact_accueil {
+        height: 300px; }
+
+    #contact_accueil h2 {
+        padding: 100px 0 30px 0; }
+    
+    /* Corps page */
+    .best-sales .title {
+        margin-left: 48px;
+        font-size: 40px; }
+
+    footer .logo a {
+        font-size: 25px; }
+
+    #contact_accueil h2 {
+        font-size: 40px; }
+
+    .centrer {
+        text-align: center;
+        font-size: 18px; }
+
+    .div1 p {
+        font-size: 18px; }
+
+    .div1 h3 {
+        text-align: center;
+        font-size: 23px; }
+
+    .best-sales_product {
+            height: 45vh; }
+
+}
+
