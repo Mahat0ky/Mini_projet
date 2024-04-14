@@ -1,12 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap'); */
-
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
-}
+    box-sizing: border-box; }
 
 /* scrollbar */
 ::-webkit-scrollbar {
@@ -15,12 +10,9 @@
 ::-webkit-scrollbar-thumb {
     width: 95px;
     background-color: rgb(177,173,173);
-    border-radius: 6px;
-}
-
+    border-radius: 6px; }
 
 p {color: #fff;}
-
 
 body {
     background-color: #000; }
@@ -40,35 +32,29 @@ header {
     padding: 0 5%;
     /* Fixer l'Header */
     position: fixed;
-    z-index: 1000;
-    }
+    z-index: 1000; }
 
 
 header  .logo a {
     font-size: 25px;
-    color: #29d9d5;
-}
+    color: #29d9d5; }
 
 header  .logo a span {
-    color: #fff;
-}
+    color: #fff; }
 
 nav ul {
     /* enlever les pointillés */
     list-style-type: none; 
-    display: inline-block;
-    }
+    display: inline-block; }
 
 .menu {
     display: flex;
-    align-items: center;
-}
+    align-items: center; }
 
 .menu li  {
-    /* espace entre les mots */
     margin: 0 15px;
-    list-style-type: none;
-}
+    list-style-type: none; }
+
 .menu li a {
     color: #fff;
     font-size: 20px;
@@ -77,9 +63,7 @@ nav ul {
 
 
 nav a {
-    /* distance de a:hover */
     padding-bottom: 3px; 
-    /* enlever le souligne */
     /* font-style: italic; */
     /* Disparaitre le soulignement */
     text-decoration: none; 
@@ -98,21 +82,15 @@ nav a {
 
 nav a:hover {
     color: aqua; 
-    border-bottom: 2px solid aqua; 
-    }
+    border-bottom: 2px solid aqua; }
 
 
 /* FIN PAGE HEADER */
 
 
-
-
-
-
 .best-sales {
     padding: 50px 03%;
-    padding-top: 100px;
-}
+    padding-top: 100px; }
 
 
 .title {
@@ -120,23 +98,16 @@ nav a:hover {
     font-size: 30px;
     letter-spacing: 2px;
     color: aqua;
-
     margin: 5px;
-    font-weight: bold;
-    /* position: relative; */
-}
+    font-weight: bold; }
 
 .best-sales .title {
     margin-left: 48px;
-    font-size: 50px;
-    /* letter-spacing: 2px; */
-    /* color: #5e493a; */
-}
+    font-size: 50px; }
 
 .best-sales_product {
     margin: 45px;
     display: grid;
-    /*  */
     grid-template-columns: repeat(8,1fr);
     /* hauteur */
     grid-template-rows: repeat(6,1fr);
@@ -144,23 +115,22 @@ nav a:hover {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     /* Hauteur */
-    height: 70vh;
-}
+    height: 70vh; }
 
 .div1 {
-    grid-area: 1 / 1 / 6 / 4;
+    grid-area: 1 / 1 / 6 / 4; 
 }
 .div2 {
-    grid-area: 1 / 4 / 7 / 6;
+    grid-area: 1 / 4 / 7 / 6; 
 }
 .div3 {
-    grid-area: 6 / 1 / 7 / 4;
+    grid-area: 6 / 1 / 7 / 4; 
 }
 .div4 {
-    grid-area: 2 / 9 / 7 / 6;
+    grid-area: 2 / 9 / 7 / 6; 
 }
 .div5 {
-    grid-area: 1 / 9 / 2 / 6;
+    grid-area: 1 / 9 / 2 / 6; 
 }
 
 .best-sales_product div img {
@@ -244,10 +214,6 @@ nav a:hover {
 
 
 
-
-/* 12/04/24 */
-
-
 #accueil {
     background: linear-gradient(rgba(0,0,0,0.2),#333), url('images/sandales.PNG') center;
     border-radius: 50px;
@@ -271,7 +237,6 @@ nav a:hover {
 
 
 /* pied de page */
-
 
 footer {
     background-color: rgba(17, 199, 206, 0.5);
@@ -298,14 +263,11 @@ footer .logo a span {
     font-size: 25px;
     margin-top: 10px; }
 
-
 .div1 h3 {
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
     color: #fff; }
-
-
 
 footer .div2 {
         text-align: center;
@@ -318,9 +280,6 @@ footer .div2 {
 .div2 p {
     font-size: 25px;
 }
-
-
-
 
 
 /* Responsive ACCEUIL */
